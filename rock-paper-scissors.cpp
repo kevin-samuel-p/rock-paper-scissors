@@ -74,7 +74,8 @@ int main(int argc, char *argv[]) {                                              
     For 2nd and 3rd format, tiebreakers might need to be implemented. No probs. ///
                                                                                 /*/
 
-    int matchFormat, n;     //n is to keep track of the number of rounds
+    char matchFormat; 
+    int n;   //n is to keep track of the number of rounds
 
     struct Score {
         int playerScore, compScore;
@@ -88,10 +89,10 @@ int main(int argc, char *argv[]) {                                              
         << "Input the corresponding number...";
 
     //Get input for match format
+    cin >> matchFormat;
     while (true) {
-        cin >> matchFormat;
         switch(matchFormat) {
-            case 1:     //We can keep execution simple here. Run a single round, return main().
+            case '1':     //We can keep execution simple here. Run a single round, return main().
                 cout << endl << endl << "START!" << endl;
                 switch(round()) {
                     case -1:
@@ -106,14 +107,14 @@ int main(int argc, char *argv[]) {                                              
                     default:
                         break;
                 } return 0;
-            case 2:
+            case '2':
                 n = 3;
                 break;
-            case 3:
+            case '3':
                 n = 5;
                 break;
             default:
-                cout << endl << "That's not a valid option!";
+                cin >> matchFormat;
                 continue;   //To obtain valid input
         } break;            //If valid input is obtained
     }
