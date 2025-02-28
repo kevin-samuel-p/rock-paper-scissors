@@ -20,14 +20,14 @@ This is a simple command-line Rock-Paper-Scissors game written in C++. Players c
 ## Compilation & Execution
 ### **Using g++ (GCC Compiler)**
 ```sh
- g++ -o rps_game rps_game.cpp
- ./rps_game
+ g++ -o rock-paper-scissors rock-paper-scissors.cpp
+ ./rock-paper-scissors
 ```
 
 ### **Using Clang**
 ```sh
- clang++ -o rps_game rps_game.cpp
- ./rps_game
+ clang++ -o rock-paper-scissors rock-paper-scissors.cpp
+ ./rock-paper-scissors
 ```
 
 ## Example Gameplay
