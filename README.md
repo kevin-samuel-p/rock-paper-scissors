@@ -30,7 +30,7 @@ This is a simple command-line Rock-Paper-Scissors game written in C++. Players c
  ./rock-paper-scissors
 ```
 
-####Altneratively, you could just download the executable (`.exe`).
+### ***Altneratively**, you could just download the executable (*`.exe`*).*
 
 ## Example Gameplay
 ```
