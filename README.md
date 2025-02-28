@@ -4,18 +4,18 @@ This is a simple command-line Rock-Paper-Scissors game written in C++. Players c
 
 ## Features
 - Play against a computer opponent.
-- Best-of-N match system (e.g., Bo3, Bo5, Bo7, etc.).
+- Choose between quick math or best-of-3/best-of-5.
 - Automatic tiebreaker round if necessary.
 - Tracks and displays the score after each round.
 
 ## How to Play
 1. Run the program.
-2. Input the match format (e.g., `3` for Best-of-5, `4` for Best-of-7, etc.).
+2. Input the match format (`1` for Single Match, `2` for Best-of-3, or `3` for Best-of-5, etc.).
 3. Choose `r` (Rock), `p` (Paper), or `s` (Scissors) for each round.
 4. The computer will randomly select its move.
 5. The winner of each round is displayed, along with the current score.
 6. If the final round results in a tie, a tiebreaker round is automatically triggered.
-7. The first player to exceed half of `N` wins the game.
+7. Given the number of remaining rounds, if a win becomes impossible for the other player, the first player is automatically declared the winner of the game.
 
 ## Compilation & Execution
 ### **Using g++ (GCC Compiler)**
