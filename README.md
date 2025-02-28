@@ -30,6 +30,8 @@ This is a simple command-line Rock-Paper-Scissors game written in C++. Players c
  ./rock-paper-scissors
 ```
 
+####Altneratively, you could just download the executable (`.exe`).
+
 ## Example Gameplay
 ```
 Enter the match format (e.g., 3 for Bo5): 3
